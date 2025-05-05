@@ -1,0 +1,23 @@
+body {
+  max-width: 820px;
+  height: 100vh;
+  margin: 0 auto;
+  background: linear-gradient(110deg, #e6f2fc 52%, #cee7f6 52%);
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 9vh;
+  /* color: rgb(230, 242, 252); */
+  color: #ffffff
+}
+
+nav {
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(100, 172, 225);
+}

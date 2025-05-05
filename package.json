@@ -5,12 +5,25 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^6.0.0"
-  }
+    "@element-plus/nuxt": "^1.1.1",
+    "gh-pages": "^6.0.0",
+    "nuxt": "^3.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangyangisgood/map-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yangyangisgood/map-app/issues"
+  },
+  "homepage": "https://github.com/yangyangisgood/map-app#readme"
 }
