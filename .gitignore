@@ -1,1 +1,14 @@
-node_modules
+# Nuxt build artifacts
+.nuxt/
+dist/
+
+# Environment variables
+.env
+.env.*.local
+
+# Node modules
+node_modules/
+
+# Optional IDE/editor settings
+.vscode/
+*.log
