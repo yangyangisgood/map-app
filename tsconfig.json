@@ -1,0 +1,12 @@
+{
+    "extends": "./.nuxt/tsconfig.json",
+    "include": [
+      "nuxt.config.ts",
+      "**/*.ts",
+      "**/*.vue"
+    ],
+    "compilerOptions": {
+        "types": ["@types/google.maps"]
+    }
+}
+  

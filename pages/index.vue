@@ -2,20 +2,11 @@
 import IconBell from "../assets/icons/IconBell.vue";
 import IconRoadSign from "../assets/icons/IconRoadSign.vue";
 import IconPen from "../assets/icons/IconPen.vue";
-
-const onNotificationClick = () => {
-  ElNotification.info("notification is clicked!");
-};
 </script>
 
 <template>
   <div>
-    <header>
-      <nav>
-        <div class="app-name">築路</div>
-        <IconBell class="notification" @click="onNotificationClick" />
-      </nav>
-    </header>
+    <HeaderBasic title="首頁" />
 
     <main class="main-content">
       <div class="logo-image" />
@@ -92,11 +83,11 @@ const onNotificationClick = () => {
   padding: 18px 24px;
   color: #252c74;
   font-size: 24px;
-  opacity: 0;
-  animation: btn-anim 500ms 1000ms 1 forwards;
+  /* opacity: 0;
+  animation: btn-anim 500ms 1000ms 1 forwards; */
 }
 
-@keyframes btn-anim {
+/* @keyframes btn-anim {
   0% {
     opacity: 0;
     transform: rotateY(0deg);
@@ -106,7 +97,7 @@ const onNotificationClick = () => {
     opacity: 1;
     transform: rotateY(360deg);
   }
-}
+} */
 
 h3 {
   margin: 8px 0px;
@@ -122,7 +113,7 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  .app-name {
+  .title {
     font-size: 64px;
     padding-left: 14%;
   }

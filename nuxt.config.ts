@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
     css: ['@/assets/style/style.css'],
-    modules: ['@element-plus/nuxt'],
+    modules: ['@element-plus/nuxt', '@nuxtjs/tailwindcss'],
     elementPlus: {
       // 可選配置
       importStyle: 'css', // 或 'sass'
